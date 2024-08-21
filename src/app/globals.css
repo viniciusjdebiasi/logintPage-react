@@ -1,0 +1,9 @@
+.main {
+    background-image: url(../../public/assets/banner-home-page.jpg);
+    background-color: #c4bccc;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 98%;
+    height: auto;
+}

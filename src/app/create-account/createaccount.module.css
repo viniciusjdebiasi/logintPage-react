@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+}
+
+.container {
+    width: auto;
+    height: auto;
+    background: rgba(0, 0, 0, 0.5);
+    color: #FFFAFA;
+    border-radius: 1rem;
+    padding: 2rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_input {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 19rem;
+}
+
+.input_account {
+    width: 17rem;
+    height: 3rem;
+    border-radius: 1rem;
+    border: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.icon_eye {
+    width: 2rem;
+    height: auto;
+}
+
+.button_eye_1 {
+    border: none;
+    background-color: #fff;
+    border-radius: 3rem;
+    position: absolute;
+    right: 0.4rem;
+    bottom: 11.9rem;
+    transition: 0.3s;
+    z-index: 5;
+    /* Um valor menor que a mensagem */
+}
+
+.button_eye_1:hover {
+    transform: scale(1.1);
+}
+
+.button_eye {
+    border: none;
+    background-color: #fff;
+    border-radius: 3rem;
+    position: absolute;
+    right: 0.4rem;
+    bottom: 5.2rem;
+    transition: 0.3s;
+    z-index: 5;
+    /* Um valor menor que a mensagem */
+}
+
+.button_eye:hover {
+    transform: scale(1.1);
+}
+
+.register_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 19rem;
+    height: 3rem;
+    margin-bottom: 0.9rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    background-color: #FFFAFA;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins';
+    transition: 0.4s;
+}
+
+.register_button:hover {
+    transform: scaleX(1.1);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.icons_page {
+    width: 3rem;
+    height: auto;
+}
+
+@media (width < 800px) {
+    .container_input {
+        flex-direction: column;
+    }
+}

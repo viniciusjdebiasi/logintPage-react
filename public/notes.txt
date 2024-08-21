@@ -1,0 +1,5 @@
+ABOUT
+
+This project is a Frontend app built with React, JavaScript, HTML, and CSS. It includes Login and Account Creation screens with a responsive design for a smooth, intuitive experience. The Login screen lets users access their accounts with credentials, while the Account Creation screen allows new user registration.
+
+REACT JAVASCRIPT CSS HTML
