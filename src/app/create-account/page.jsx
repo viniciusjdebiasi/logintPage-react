@@ -57,7 +57,7 @@ export default function CreateAccount() {
             <div className={styles.container}>
                 <h1>Crea il tuo account</h1>
 
-                {otherMessage}
+                <p className={styles.message_warning}>{otherMessage}</p>
                 {showMessage && (<Correct message={messageSuccess} functionProps={CloseMessage} />)}
 
                 <div className={styles.container_input}>

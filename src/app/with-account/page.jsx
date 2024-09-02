@@ -62,7 +62,7 @@ export default function WithAccount() {
         <div className={styles.main}>
             <div className={styles.container}>
                 <h1>Accedi il tuo account</h1>
-                {messageEmailPassword}
+                <p className={styles.message_warning}>{messageEmailPassword}</p>
                 {showMessage && messageType === 'error' && (<Incorrect message={message} functionProps={CloseMessage} />)}
                 {showMessage && messageType === 'success' && (<Correct message={message} functionProps={CloseMessage} />)}
                 <form className={styles.container_input} onSubmit={CheckValues}>
