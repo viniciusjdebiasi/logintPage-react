@@ -63,13 +63,13 @@ export default function CreateAccount() {
                 <div className={styles.container_input}>
                     <form onSubmit={CheckValues} >
                         <p>Nome completo</p>
-                        <input type="text" name='name' value={name} onChange={(event) => ReceiveName(event.target.value)} placeholder='Vinicius Jose De Biasi' className={styles.input_account} />
+                        <input type="text" name='name' value={name} onChange={(event) => ReceiveName(event.target.value)} placeholder='Inserisci il tuo nome' className={styles.input_account} />
                         <p>Data di nascita</p>
                         <input type="date" name='date' value={date} onChange={(event) => ReceiveDate(event.target.value)} className={styles.input_account} />
                         <p>Email</p>
-                        <input type="email" name='email' value={email} onChange={(event) => ReceiveEmail(event.target.value)} placeholder='viniciusdebiasi23@gmail.com' className={styles.input_account} />
+                        <input type="email" name='email' value={email} onChange={(event) => ReceiveEmail(event.target.value)} placeholder='Inserisci la tua email' className={styles.input_account} />
                         <p>Telefono</p>
-                        <input type="phone" name='phone' value={phone} onChange={(event) => ReceivePhone(event.target.value)} placeholder='+31 339 9571' className={styles.input_account} />
+                        <input type="phone" name='phone' value={phone} onChange={(event) => ReceivePhone(event.target.value)} placeholder='+00 000 0000' className={styles.input_account} />
                         <p>Password</p>
                         <input type={showPassword ? 'text' : 'password'} name='password' value={password} onChange={(event) => ReceivePassword(event.target.value)} className={styles.input_account} />
                         <button className={styles.button_eye_1} onClick={ShowUserPassword}>
