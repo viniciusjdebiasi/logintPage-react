@@ -53,7 +53,7 @@
 }
 
 .exit_button:hover {
-    transform: scaleX(1.1);
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
+    cursor: pointer;
 }

@@ -55,6 +55,7 @@
 
 .button_eye_1:hover {
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 .button_eye {
@@ -71,6 +72,7 @@
 
 .button_eye:hover {
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 .register_button {
@@ -91,9 +93,9 @@
 }
 
 .register_button:hover {
-    transform: scaleX(1.1);
     background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
+    cursor: pointer;
 }
 
 .icons_page {
